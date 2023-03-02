@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Web Prerender | Home </title>
+        <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+    </head>
+    <body>
+        <div class="main-page">
+            <!-- header -->
+            <header class="header">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-logo" href="./index.html">
+                            <img src="./assets/images/logo.png" alt="">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navmenu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="submenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Platform
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="submenu">
+                                        <a href="./angular.html">Angular</a>
+                                        <a href="#">React</a>
+                                        <a href="#">Vue JS</a>
+                                        <a href="#">Node JS</a>
+                                        <a href="#">Other JS</a>
+                                    </div>
+                                </li>
+                                <li><a href="./docs.html">Docs</a></li>
+                                <li><a href="./pricing.html">Pricing</a></li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="./index.html#contact">Contact Us</a></li>
+                            </ul>
+                            <div class="nav-buttons">
+                                <a href="https://jsrender.elsnerdev.com/login" target="_blank" class="btn btn-outline">Login</a>
+                                <a href="https://jsrender.elsnerdev.com/register" target="_blank" class="btn btn-primary">Sign up</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- main body -->
+            <div class="main-wrapper">
+                
+                <section class="banner-section">
+                    <!-- particles.js container -->
+                    <div id="particles-js"></div>
+                    <!-- particles.js container -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="banner-context white">
+                                    <div class="banner-width">
+                                        <h1>We Strive <br> for Excellence</h1>
+                                        <p>Increase your website's rating without losing the user experience by 
+                                            presenting a static HTML version of your JavaScript website to 
+                                            web crawlers.</p>
+                                        <form action="">
+                                            <div class="form-group">
+                                                <input type="email" name="email" id="email" placeholder="Entre your email" required>
+                                            </div>
+                                            <div class="form-btn">
+                                                <input type="submit" class="btn btn-primary" value="subscribe for free">
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="./assets/images/shopify.png" alt="icon"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="./assets/images/IBM.png" alt="icon"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="./assets/images/amazon.png" alt="icon"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="./assets/images/twilio.png" alt="icon"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="banner-image">
+                                    <lottie-player src="./assets/lottie/banner.json"  
+                                    background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="benefit-section">
+                    <div class="container">
+                        <div class="heading">
+                            <h3>Benefits of Pre Rendering a website</h3>
+                        </div>
+                        <div class="benefit-wrapper">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="benefit-box">
+                                        <div class="render-image">
+                                            <img src="./assets/images/icon1.png" alt="icon">
+                                        </div>
+                                        <h5>Improves performance</h5>
+                                        <p>In a React-app you need to wait for the JavaScript to be executed. Perhaps fetch data from an external API & then render the UI. There is a wait time for users. Whereas with the help of pre-rendering, HTML is already generated and loads more quickly.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                    <div class="benefit-box">
+                                        <div class="render-image">
+                                            <img src="./assets/images/icon3.png" alt="icon">
+                                        </div>
+                                        <h5>Faster Indexing</h5>
+                                        <p>Prerender instantly converts your JavaScript pages into HTML and caches them, ensuring complete caching of your website.</p>
+                                        <p>Pre-rendering enables search engines to index some content immediately.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                    <div class="benefit-box">
+                                        <div class="render-image">
+                                            <img src="./assets/images/icon5.png" alt="icon">
+                                        </div>
+                                        <h5>Increased web traffic</h5>
+                                        <p>To drive traffic to company’s websites and generate revenue, the marketing team relies on technical SEO and web developers. Resulting in ongoing improvement for both human users and search engines.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="benefit-box">
+                                        <div class="render-image">
+                                            <img src="./assets/images/icon2.png" alt="icon">
+                                        </div>
+                                        <h5>Helps with SEO</h5>
+                                        <p>If you are building a blog or an e-commerce site, SEO is a concern. Likewise with a React app, if the search engine hits your page it only sees a div tag with the id equal to root if your page is not pre-rendered.</p>
+                                        <p>If a search engine hits a pre-rendered page though, all the content is present in the source code which will help index that page. Pre-rendering is the best practice to solve your concern about SEO.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                    <div class="benefit-box">
+                                        <div class="render-image">
+                                            <img src="./assets/images/icon4.png" alt="icon">
+                                        </div>
+                                        <h5>Better user experience</h5>
+                                        <p>Google awards higher search ranks to websites with excellent user experiences. Therefore, improving your website for search engines also includes improving it for JavaScript UX and overall user experience.</p>
+                                        <a href="#" class="read-more">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="video-section">
+                    <div class="container">
+                        <div class="video">
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/LXb3EKWsInQ" title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="why-choose">
+                    <div class="container">
+                        <div class="heading white">
+                            <h3>Why choose us?</h3>
+                        </div>
+                        <div class="choose-wrapper white">
+                            <div class="choose-box">
+                                <span class="number">01</span>
+                                <div class="why--choose-content">
+                                    <h4>Attention to details</h4>
+                                    <p>Our thorough attention to detail, systematic approach of deadlines, and skilled project management set us apart from the competition.</p>
+                                </div>
+                                <div class="choose-image">
+                                    <lottie-player src="./assets/lottie/icon1.json"  
+                                    background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+                                </div>
+                            </div>
+                            <div class="choose-box">
+                                <span class="number">02</span>
+                                <div class="why--choose-content">
+                                    <h4>Pricing</h4>
+                                    <p>Our costs are fair and competitive. There are no unexpected charges. We take your prior approval for any unexpected or additional costs.</p>
+                                </div>
+                                <div class="choose-image">
+                                    <lottie-player src="./assets/lottie/icon2.json"  
+                                    background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+                                </div>
+                            </div>
+                            <div class="choose-box">
+                                <span class="number">03</span>
+                                <div class="why--choose-content">
+                                    <h4>Creativity</h4>
+                                    <p>For your business, we integrate our wide skills in public relations, research, branding, advertising, design, and strategic planning. Your materials will not only look fantastic, but they will also be effective.</p>
+                                </div>
+                                <div class="choose-image">
+                                    <lottie-player src="./assets/lottie/icon3.json"  
+                                    background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+                                </div>
+                            </div>
+                            <div class="choose-box">
+                                <span class="number">04</span>
+                                <div class="why--choose-content">
+                                    <h4>A plan to success</h4>
+                                    <p>Researching your organization, competition, target market, and client psychographics up front has proven to be the most effective approach to acquire them. We only suggest a strategy once we have a thorough understanding of both you and your target audience.</p>
+                                </div>
+                                <div class="choose-image">
+                                    <lottie-player src="./assets/lottie/icon4.json"  
+                                    background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about-expertise">
+                    <div class="container">
+                        <div class="heading">
+                            <h3>Some facts about our expertise</h3>
+                        </div>
+                        <div class="expertise-wrapper">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="counter-box">
+                                        <div class="number">
+                                            <h2 class="counter">2147</h2>
+                                        </div>
+                                        <h6>Project completed</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="counter-box">
+                                        <div class="number">
+                                            <h2 class="counter">97</h2><span>%</span>
+                                        </div>
+                                        <h6>Positive feedback</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="counter-box">
+                                        <div class="number">
+                                            <h2 class="counter">101</h2>
+                                        </div>
+                                        <h6>Satisfied Clients</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="counter-box">
+                                        <div class="number">
+                                            <span>$</span>
+                                            <h2 class="counter">32</h2>
+                                        </div>
+                                        <h6>Average cost per hour</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="latest-news">
+                    <div class="container">
+                        <div class="heading">
+                            <h3>Latest News</h3>
+                        </div>
+                        <div class="news-wrapper">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="news-box">
+                                        <img src="./assets/images/news.jpg" alt="news">
+                                        <span class="date">May 02,2021</span>
+                                        <h6>Markup: HTML Tags and Formatting</h6>
+                                        <p>Headings Header one Header two Header three Header four Header five Header six Blockquotes Single line blockquote: Stay hungry. Stay foolish. Multi line blockquote with a cite reference: People think</p>
+                                        <a href="./blog-details.html" class="read-more">Read more</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="news-box">
+                                        <img src="./assets/images/news.jpg" alt="news">
+                                        <span class="date">May 02,2021</span>
+                                        <h6>Self-observation is the first of inner unfolding</h6>
+                                        <p>In a React-app you need to wait for the Java Script to be executed. Perhaps fetch data...</p>
+                                        <a href="./blog-details.html" class="read-more">Read more</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="news-box">
+                                        <img src="./assets/images/news.jpg" alt="news">
+                                        <span class="date">May 02,2021</span>
+                                        <h6>Self-observation is the first of inner unfolding</h6>
+                                        <p>In a React-app you need to wait for the Java Script to be executed. Perhaps fetch data...</p>
+                                        <a href="./blog-details.html" class="read-more">Read more</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="news-box">
+                                        <img src="./assets/images/news.jpg" alt="news">
+                                        <span class="date">May 02,2021</span>
+                                        <h6>Self-observation is the first of inner unfolding</h6>
+                                        <p>In a React-app you need to wait for the Java Script to be executed. Perhaps fetch data...</p>
+                                        <a href="./blog-details.html" class="read-more">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="get-in-touch-section" id="contact">
+                    <div class="container">
+                        <div class="heading white">
+                            <h3>Get in touch</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="get-in-touch-form">
+                                    <h2>Contact us</h2>
+                                    <form action="">
+                                        <div class="group">
+                                            <label> First Name <span>*</span></label>
+                                            <input type="text" id="name" class="form-control " name="name" required>
+                                        </div>
+                                        <div class="group">
+                                            <label> last Name <span>*</span></label>
+                                            <input type="text" id="name" class="form-control " name="name" required>
+                                        </div>
+                                        <div class="group full">
+                                            <label> Email <span>*</span></label>
+                                            <input id="email" type="email" class="form-control " name="email" required>
+                                        </div>
+                                        <div class="group full">
+                                            <label> Phone Number </label>
+                                            <div class="phone">
+                                                <input type="tel" class="form-control phone-number" value="" name="phone" required>
+                                            </div>
+                                        </div>
+                                        <div class="group full">
+                                            <label> Message </label>
+                                            <textarea id="textContact" class="form-control" name="message"
+                                                rows="4"></textarea>
+                                        </div>
+                                        <div class=" submit-btn">
+                                            <button id="register" type="submit" class="button btn-primary">
+                                                submit</button>
+                                        </div>
+    
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="get-in-touch-content">
+                                    <div class="wpb_wrapper">
+                                        <ul>
+                                            <li><i class="fa-solid fa-arrow-right"></i> We are accepting new projects</li>
+    
+                                            <li><i class="fa-solid fa-arrow-right"></i>It is necessary that all parties have
+                                                a thorough understanding of the
+                                                project, its
+                                                advantages and disadvantages. The only way to have a good relationship is to
+                                                do that. A company to company expectation is another requirement that needs
+                                                to be addressed. We must be conscious of our roles, the work that is done on
+                                                each end, and our obligations and responsibilities. Then and only then will
+                                                we
+                                                be able to maintain transparency and develop a healthy relationship.</li>
+                                        </ul>
+                                        <div class="box-wrapper">
+                                            <div class="icon">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                            </div>
+                                            <div class="box-wrapper-content">
+                                                <h6>Address</h6>
+                                                <span>305,306 Iscon Center,<br>
+                                                    Shivranjani Cross Road, Satellite,</span>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrapper">
+                                            <div class="icon">
+                                                <i class="fa-solid fa-phone"></i>
+                                            </div>
+                                            <div class="box-wrapper-content">
+                                                <h6>Number</h6>
+                                                <a href="tel:+91 79 4006 2525">+91 79 4006 2525</a>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrapper">
+                                            <div class="icon">
+                                                <i class="fa-solid fa-envelope"></i>
+                                            </div>
+                                            <div class="box-wrapper-content">
+                                                <h6>Email address</h6>
+                                                <a href="mailto:sales@versiclad.com.au">sales@elsner.com</a>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- footer  -->
+            <footer class="site-footer" id="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="footer-logo">
+                                    <img src="./assets/images/footer-logo.png" alt="">
+                                </div>
+                                <div class="footer-social">
+                                    <h6>Follow Us</h6>
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-9">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="footer-menu">
+                                            <h6>About Us</h6>
+                                            <ul>
+                                                <li><a href="#">Help Center</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="footer-menu">
+                                            <h6>Resources</h6>
+                                            <ul>
+                                                <li><a href="./blog.html">Blog</a></li>
+                                                <li><a href="#">Tutorials</a></li>
+                                                <li><a href="#">Glossary</a></li>
+                                                <li><a href="#">Videos</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="footer-menu">
+                                            <h6>Useful Links</h6>
+                                            <ul>
+                                                <li><a href="#">Member Perks</a></li>
+                                                <li><a href="#">Consulting</a></li>
+                                                <li><a href="#">API</a></li>
+                                                <li><a href="#">Affiliates</a></li>
+                                                <li><a href="#">Feedback</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="site-info">
+                            <ul>
+                                <li><a href="#" target="">Terms &amp; Conditions</a></li>
+                                <li><a href="#" target="">Privacy </a></li>
+                                <li><a href="#" target="">Vulnerability Disclosure Policy</a></li>
+                            </ul>
+                            <div class="copyrights">
+                                <p>© 2022 Web Prerender, Inc. All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./assets/js/popper.min.js"></script>
+        <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="./assets/js/lottie-player.js"></script>
+        <script type="text/javascript" src="./assets/js/particles.js"></script>
+        <script type="text/javascript" src="./assets/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="./assets/js/custom.js"></script>
+    </body>
+</html>
